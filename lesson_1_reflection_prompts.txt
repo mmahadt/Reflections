@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+I did not need to read and compare each and every line of the both 
+files. I just see the differences and the difference was found out easily. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+I cold see all the revisions and refactorings made throughout the lifecycle of software. At anytime 
+I can revert to a previous working version of code if my current version has bugs. I can also collaborate with 
+my team effectively. 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+pros:
+1.	There are logical checkpoints where we commit
+
+cons:
+1.	We can forget to commit and loose some important change uncommittes
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+A commit is one logiacla change in the code. So if we add a button, we have to edit multiple files, 
+but logically it is the same change so we will do a single commit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Fist we use git log to see the history of all the commits.
+The most recent commits a re aove than the commits below them.
+Now we can see and count the insertions and deletions in the files 
+by using the git diff command and using the commit ids of the recent 
+commit with the previous one (i.e. commit id just below the recent one)
+
+How might using version control make you more confident to make changes that
+could break something?
+
+I can always revert to previous versions of the file which didi not have the 
+bugs. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I will use git for my pintos project.
+I will also make my web development project in collaboration with my team members.
