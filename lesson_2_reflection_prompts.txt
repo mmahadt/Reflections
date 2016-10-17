@@ -5,8 +5,13 @@ a git repository.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+The working directory contins all the files of the project.
+Repository is the git repository.
 Staging area is the temporary area to place the files before we make a git
 commit.
+By using staging area we can ensure that there si only one commit per logical
+change. We can only add one file that is modified to the staging area and then commit it.
+
 We can run git status before committing to see whether we are committing the right directory
 or if not we can remove files from the staging area that we have added by mistake by using git reset
 name_of_file.
