@@ -26,8 +26,20 @@ We will merge it to master branch when the feature is fully experimented and tes
 
 How do the diagrams help you visualize the branch structure?
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+These diagrams show wich commit is paren tof which commit. How many branches we have and 
+the reachability of commits. It can also tell where we currently are.
 
-What are the pros and cons of Git’s automatic merging vs. always doing merges
-manually?
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches is all the commits made after the branch was forked from master are incorporated in the master branch.
+This is the case when we mergee a branch foreked from the master branch
+with the master branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+pros: Many times automatic merging saves time
+cons: Sometimes it may result in wrong merging
+
+Manual--
+pros: Most likely to be error free as it is done and checked by human
+cons: Takes times or we can say wastes time
