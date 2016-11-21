@@ -7,7 +7,8 @@ over the internet and keep track of all the changes made to the code.
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-
+It is the same reason of manual commits vs automatic commits.
+It makes sense to make commits manually as the developer knows at which point in time he wants to psh or pull the changes. There may be changes that a developer does not want to push or pull.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
